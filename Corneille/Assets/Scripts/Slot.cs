@@ -20,8 +20,7 @@ public class Slot : MonoBehaviour, IDropHandler
             //si le pois que l'on veut déposer est au sol ou en l'air
             if (pois.GetComponent<Pois>().indice == -1)
             {
-                levelManager.word += pois.GetComponent<Pois>().grapheme;
-                FillSlot(eventData);//alors on remplit ce slot et on ouvre le prochain
+                FillSlot(eventData); //alors on remplit ce slot et on ouvre le prochain
             }
         }       
     }
@@ -72,8 +71,14 @@ public class Slot : MonoBehaviour, IDropHandler
 
     public void CheckingWord()
     {
-        //Si le mot est correct
-        if (levelManager.word == levelManager.levelWord)
+        string word = "";
+        for (int i = 0; i < levelManager.poisDansCosse.Length; i++)
+        {
+            word+= levelManager.poisDansCosse[i].GetComponent<Slot>().pois.GetComponent<Pois>().grapheme;//On récupère le mot proposé par le joueur
+        }
+
+        //Si ce mot est correct
+        if (word == levelManager.levelWord)//??????
         {
             //le mot s'ajuste
             //la cosse se referme

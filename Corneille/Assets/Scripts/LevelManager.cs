@@ -6,13 +6,12 @@ public class LevelManager : MonoBehaviour // PEUT-être RENOMMER EN PoisManager
     public Image[] poisDansCosse;
     public string levelWord;//Le mot à écrire pour ce niveau
     //public int sceneNumber;
-    public string word;//Le mot actuel formé par les pois dans la cosse 
+    //public string word;//Le mot actuel formé par les pois dans la cosse 
     public static int currentIndex = 0; /*CONVENTION : currentIndex < poisDansCosse.Length*/
     private void Start()
     {
         currentIndex = 0;
         UpdateVisuelCosse();
-        
     }
 
   

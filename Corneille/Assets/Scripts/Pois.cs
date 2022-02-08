@@ -16,8 +16,6 @@ public class Pois : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     public LevelManager levelManager;//Essayer de le remplir avec le script
 
     
-   
-    
     void Awake()
     {
         grapheme = GetComponentInChildren<Text>().text;
