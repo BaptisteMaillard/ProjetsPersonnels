@@ -13,7 +13,7 @@ public class Pois : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     public Vector2 initialPos;
     public int indice = -1;
     public string grapheme;
-    public ChangePois changePois;//Essayer de le remplir avec le script
+    public LevelManager levelManager;//Essayer de le remplir avec le script
 
     
    
@@ -30,14 +30,14 @@ public class Pois : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     public void OnBeginDrag(PointerEventData eventData)
     { 
         //si ce pois est au sol ou est le dernier pois à avoir été déposé
-        if (indice == -1 || indice == ChangePois.currentIndex - 1)
+        if (indice == -1 || indice == LevelManager.currentIndex - 1)
         {
             
             //si en particulier ce pois est le dernier à avoir été déposé
-            if (indice == ChangePois.currentIndex - 1 && indice != -1)
+            if (indice == LevelManager.currentIndex - 1 && indice != -1)
             {
                 //alors on vide le slot qui le contenait c'est-à-dire celui dont l'id est currentIndex-1
-                changePois.poisDansCosse[ChangePois.currentIndex - 1].GetComponent<Slot>().EmptySlot();    
+                levelManager.poisDansCosse[LevelManager.currentIndex - 1].GetComponent<Slot>().EmptySlot();    
             }
 
             //alors on l'autorise à bouger
@@ -50,7 +50,7 @@ public class Pois : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     public void OnDrag(PointerEventData eventData)
     {
         //si ce pois est au sol ou est le dernier pois à avoir été déposé
-        if (indice == -1 || indice == ChangePois.currentIndex - 1)
+        if (indice == -1 || indice == LevelManager.currentIndex - 1)
         {
             rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;//on déplace ce pois 
         }

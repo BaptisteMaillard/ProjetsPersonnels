@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L
+  m_Text: A
 --- !u!1 &1872739198053610430
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,9 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e4e0ca48cdb8f40a6e1d59acde3aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPos: {x: 0, y: 0}
   indice: -1
-  grapheme: 
-  changePois: {fileID: 0}
+  grapheme: L
+  levelManager: {fileID: 0}
 --- !u!225 &1872739198053610425
 CanvasGroup:
   m_ObjectHideFlags: 0

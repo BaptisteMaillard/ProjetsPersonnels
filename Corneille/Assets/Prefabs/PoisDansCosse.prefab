@@ -90,7 +90,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pois: {fileID: 0}
-  changePois: {fileID: 0}
+  id: 3
+  levelManager: {fileID: 0}
 --- !u!114 &1364688409743139516
 MonoBehaviour:
   m_ObjectHideFlags: 0

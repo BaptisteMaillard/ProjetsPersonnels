@@ -230,7 +230,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 770391272}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
+      value: M
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: changePois
+      value: 
+      objectReference: {fileID: 1941772857}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -435,15 +443,7 @@ PrefabInstance:
       value: PoisDansFinCosse
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: id
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: isOpen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     m_RemovedComponents: []
@@ -730,7 +730,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2047041331}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
+      value: O
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: changePois
+      value: 
+      objectReference: {fileID: 1941772857}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -799,11 +807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 265.99997
+      value: 318
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -232.99997
+      value: -254
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1146,11 +1154,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: isOpen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     m_RemovedComponents: []
@@ -1518,11 +1522,7 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: isOpen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     m_RemovedComponents: []
@@ -1548,7 +1548,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2047041331}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
+      value: R
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: changePois
+      value: 
+      objectReference: {fileID: 1941772857}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -1767,7 +1775,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 115330227}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: changePois
+      value: 
+      objectReference: {fileID: 1941772857}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -1881,7 +1897,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2047041331}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
+      value: N
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: changePois
+      value: 
+      objectReference: {fileID: 1941772857}
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -2126,16 +2150,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439288895}
     m_Modifications:
-    - target: {fileID: 99933257, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
-      propertyPath: m_Text
+    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: grapheme
       value: A
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
-      propertyPath: slot
-      value: 
-      objectReference: {fileID: 392580495}
-    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -2204,11 +2224,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -41.000004
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -145.54
+      value: -106
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2357,7 +2377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1941772855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04558fd536e4a3644918b9fafe9ac1fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 036b95a96d937c949a73acf0fce69639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   poisDansCosse:
@@ -2365,6 +2385,8 @@ MonoBehaviour:
   - {fileID: 392580495}
   - {fileID: 770391272}
   - {fileID: 115330227}
+  levelWord: LAMA
+  word: 
 --- !u!114 &2047041331 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1364688409743139518, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
@@ -2472,11 +2494,11 @@ PrefabInstance:
       value: PoisDansDebutCosse
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: isOpen
+      propertyPath: id
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     m_RemovedComponents: []
@@ -2488,12 +2510,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439288895}
     m_Modifications:
-    - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
-      propertyPath: grapheme
-      value: 
+    - target: {fileID: 99933257, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
+      propertyPath: m_Text
+      value: L
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610426, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
-      propertyPath: changePois
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1941772857}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
@@ -2562,11 +2584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 209.26996
+      value: -273
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -142.99997
+      value: -179
       objectReference: {fileID: 0}
     - target: {fileID: 1872739198053610429, guid: 60442afef5a9ddc44bd9e69187e50505, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
