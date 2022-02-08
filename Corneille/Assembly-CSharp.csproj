@@ -53,11 +53,11 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Drop.cs" />
-    <Compile Include="Assets\Scripts\Drag.cs" />
+    <Compile Include="Assets\Scripts\Slot.cs" />
+    <Compile Include="Assets\Scripts\Pois.cs" />
+    <Compile Include="Assets\Scripts\RepeatWord.cs" />
     <Compile Include="Assets\Scripts\ChangePois.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\RepeatWord.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

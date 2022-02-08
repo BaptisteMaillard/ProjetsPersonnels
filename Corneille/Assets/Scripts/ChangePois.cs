@@ -3,17 +3,11 @@ using UnityEngine.UI;
 
 public class ChangePois : MonoBehaviour // PEUT-être RENOMMER EN PoisManager
 {
-    public static Image[] poisDansCosse;
+    public Image[] poisDansCosse;
     public static int currentIndex = 0; /*CONVENTION : currentIndex < poisDansCosse.Length*/
     private void Start()
     {
-        poisDansCosse = GetComponentsInChildren<Image>();
-        for (int i = 0; i < poisDansCosse.Length; i++)
-        {
-            poisDansCosse[i].GetComponent<Drop>().id = i;
-        }
         UpdateVisuelCosse();
-       
     }
 
   

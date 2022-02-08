@@ -435,6 +435,10 @@ PrefabInstance:
       value: PoisDansFinCosse
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
+      propertyPath: id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
       propertyPath: isOpen
       value: 1
       objectReference: {fileID: 0}
@@ -1138,6 +1142,10 @@ PrefabInstance:
       value: PoisDansMilieuCosse
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
       propertyPath: isOpen
       value: 1
       objectReference: {fileID: 0}
@@ -1504,6 +1512,10 @@ PrefabInstance:
     - target: {fileID: 1364688409743139513, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
       propertyPath: m_Name
       value: PoisDansMilieuCosse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
+      propertyPath: id
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1364688409743139519, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
       propertyPath: isOpen
@@ -2348,6 +2360,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04558fd536e4a3644918b9fafe9ac1fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poisDansCosse:
+  - {fileID: 2047041331}
+  - {fileID: 392580495}
+  - {fileID: 770391272}
+  - {fileID: 115330227}
 --- !u!114 &2047041331 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1364688409743139518, guid: 72bda39a80a00c5468cde6a78ad0c08c, type: 3}
