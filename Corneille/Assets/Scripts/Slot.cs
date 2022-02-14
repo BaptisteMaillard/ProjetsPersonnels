@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Slot : MonoBehaviour, IDropHandler
 {
@@ -10,6 +11,31 @@ public class Slot : MonoBehaviour, IDropHandler
     public int id;//contient l'identifiant du slot
     //public bool isOpen; en fait isOpen == (if(id == currentIndex))
     public LevelManager levelManager;//Essayer de le remplir avec le script
+    public Animator animatorCosseInterieur;
+    public Animator animatorCosseExterieur;
+
+    private void Start()
+    {
+        
+        //animator.SetBool("isFailed", false);
+    }
+
+
+    IEnumerator FailCoroutine()
+    {
+        //Animation de la cosse de gauche à droite car erreur
+        animatorCosseInterieur.SetBool("isFailed", true);
+        animatorCosseExterieur.SetBool("isFailed", true);
+        yield return new WaitForSeconds(0.7f);
+
+        animatorCosseInterieur.SetBool("isFailed", false);
+        animatorCosseExterieur.SetBool("isFailed", false);
+        yield return new WaitForSeconds(0.5f);
+
+        //Puis on recharge la scene
+        SceneManager.LoadScene("LamaLevel");
+    }
+
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -90,14 +116,8 @@ public class Slot : MonoBehaviour, IDropHandler
         }
         //Sinon on recommence le niveau
         else
-        {
-            //Animation de la cosse de gauche à droite car erreur
-
-
-
-
-            //Puis on recharge la scene
-            SceneManager.LoadScene("LamaLevel");
+        {         
+            StartCoroutine(FailCoroutine());
         }
 
 
