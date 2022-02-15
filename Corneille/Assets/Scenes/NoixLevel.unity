@@ -786,5 +786,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasFond
       objectReference: {fileID: 0}
+    - target: {fileID: 6517589932188192769, guid: 032b2aefa668a134a8eb1dfb0ff81c2e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -96
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 032b2aefa668a134a8eb1dfb0ff81c2e, type: 3}

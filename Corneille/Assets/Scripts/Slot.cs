@@ -16,8 +16,8 @@ public class Slot : MonoBehaviour, IDropHandler
 
     private void Start()
     {
-        
-        //animator.SetBool("isFailed", false);
+        animatorCosseInterieur.SetBool("isFailed", false);
+        animatorCosseExterieur.SetBool("isFailed", false);
     }
 
 
@@ -30,10 +30,10 @@ public class Slot : MonoBehaviour, IDropHandler
 
         animatorCosseInterieur.SetBool("isFailed", false);
         animatorCosseExterieur.SetBool("isFailed", false);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.7f);
 
         //Puis on recharge la scene
-        SceneManager.LoadScene("LamaLevel");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 
@@ -112,7 +112,15 @@ public class Slot : MonoBehaviour, IDropHandler
 
 
             //On passe au niveau suivant
-            SceneManager.LoadScene("NoixLevel");
+            if (SceneManager.GetActiveScene().name == "NoixLevel")
+            {
+                SceneManager.LoadScene("LamaLevel");
+            }
+            else
+            {
+                SceneManager.LoadScene("NoixLevel");
+            }
+            
         }
         //Sinon on recommence le niveau
         else
